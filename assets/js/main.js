@@ -14,7 +14,7 @@ color = prompt('Inserisci il tuo colore preferito');
 password = name + surname + color +'19';
 
 // message gen
-message = 'Ciao ' + name + ' ' + surname + ' la tua password è:'
+message = 'Ciao ' + name + ' ' + surname + ' la tua password è:';
 
 // output
 document.getElementById('js-message').innerHTML = (message);
